@@ -1,0 +1,30 @@
+#################################################
+# REVENANT
+#################################################
+
+# [REQUIRED] Collection name
+mongo-db-name=
+
+# [REQUIRED] Host name
+mongo-host-name=
+
+# [REQUIRED] Port number
+mongo-port-number=
+
+# [OPTIONAL] Model base package
+mongo-model-base-package=
+
+# [OPTIONAL] Write concern (Default: SAFE)
+#mongo-write-concern=
+
+# [REQUIRED]
+twitter-consumer-key=
+
+# [REQUIRED]
+twitter-consumer-secret=
+
+# [REQUIRED]
+twitter-access-token=3307811950-
+
+# [REQUIRED]
+twitter-access-secret=

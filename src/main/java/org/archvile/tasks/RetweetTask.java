@@ -26,7 +26,7 @@ public class RetweetTask {
 
     private static Logger log = Logger.getLogger(RetweetTask.class);
 
-    private static final long DELAY_BETWEEN_RETWEETS_IN_SECONDS = 30;
+    private static final long DELAY_BETWEEN_RETWEETS_IN_SECONDS = 87;
     private static final long DELAY_BETWEEN_RETWEETS_IN_MILLISECONDS = DELAY_BETWEEN_RETWEETS_IN_SECONDS * 1000;
 
     @Autowired

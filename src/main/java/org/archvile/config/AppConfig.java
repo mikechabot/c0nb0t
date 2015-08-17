@@ -1,6 +1,9 @@
 package org.archvile.config;
 
 import org.archvile.beans.StaticData;
+import org.archvile.beans.MongoProperties;
+
+import com.mongodb.WriteConcern;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
@@ -10,15 +13,10 @@ import org.springframework.context.annotation.PropertySource;
 import org.springframework.core.env.Environment;
 import org.springframework.scheduling.annotation.EnableScheduling;
 import org.springframework.social.twitter.api.FriendOperations;
-import org.springframework.social.twitter.api.RateLimitStatus;
 import org.springframework.social.twitter.api.SearchOperations;
 import org.springframework.social.twitter.api.TimelineOperations;
 import org.springframework.social.twitter.api.UserOperations;
 import org.springframework.social.twitter.api.impl.TwitterTemplate;
-
-import com.mongodb.WriteConcern;
-
-import org.archvile.beans.MongoProperties;
 
 @Configuration
 @EnableScheduling

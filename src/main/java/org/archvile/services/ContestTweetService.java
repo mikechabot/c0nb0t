@@ -4,11 +4,13 @@ import org.archvile.models.ContestTweet;
 import org.springframework.social.twitter.api.Tweet;
 
 import java.util.List;
+import java.util.Set;
 
-public interface TweetService {
+public interface ContestTweetService {
 
     List<ContestTweet> getRetweets();
     List<Long> getRetweetIds();
-    ContestTweet saveTweetAsContestTweet(Tweet tweet);
+    ContestTweet saveTweet(Tweet tweet);
+    Set<Tweet> getPotentialContestTweets();
 
 }

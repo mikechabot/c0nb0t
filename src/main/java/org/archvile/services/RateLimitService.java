@@ -11,6 +11,7 @@ public interface RateLimitService {
     Map<ResourceFamily, List<RateLimitStatus>> getRateLimitStatus();
     List<RateLimitStatus> getRateLimitStatusByResourceFamily(ResourceFamily family);
     int getRemainingHitsForFamilyAndEndpoint(ResourceFamily family, String endpoint);
-
+    boolean isThrottleable();
+    void throttle();
 
 }
